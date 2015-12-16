@@ -56,9 +56,6 @@ class MassSpring(object):
         O = Point('O')                         # Origin point
         O.set_vel(I, 0)                        # Origin's velocity is zero
 
-
-
-
     def dy(self, y , t, coeff):
         m = coeff['m']
         K = coeff['K']
